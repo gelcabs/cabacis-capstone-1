@@ -26,11 +26,12 @@ body {
 
 #bg-gallery {
 	min-height: 20rem;
-	background-image: url(images/plane.png);
+	background-image: url(images/mount.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center top;
 	background-attachmeent: fixed; 
 }
+
 
 
