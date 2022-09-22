@@ -9,3 +9,28 @@
 body {
 	font-family: "Tahoma";
 }
+.header {
+	position:relative;
+    height: 100%;
+    width:100%;
+}
+
+#bg-image {
+	min-height: 50rem;
+	background-image: url(images/travel.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 100%;
+	background-position: center top;	
+}
+
+#bg-gallery {
+	min-height: 20rem;
+	background-image: url(images/plane.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	background-attachmeent: fixed; 
+}
+
+

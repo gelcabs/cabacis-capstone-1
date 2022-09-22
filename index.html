@@ -19,8 +19,7 @@
 
    <!-- Start of Navbar  -->
    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
-         <a><img style="width: 100px;" src="images/galeria.png"></a>
-         <a style="color: white; text-decoration: none; font-weight: bold;" href="#"></a>
+         <a href="#top"><img style="width: 100px;" src="images/galeria.png"></a>
          <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggler navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
@@ -48,10 +47,18 @@
          
 
    <!-- Start of header -->
-   <div class="container-bg">
-      <div style="background-image: url('images/travel.png'); background-size:  cover; height: 100vh; width: 100%; background-repeat: no-repeat;">
+   <!-- <section id="bg-image">
+   <div id="header" class="container-bg">
+      <div class="img-fluid"style="background-image: url('images/travel.png'); background-size: cover; height: 100vh; width: 100%; background-repeat: no-repeat;">
       </div>
    </div>
+   </section> -->
+
+         <section id="bg-image">
+            <div class="front-bg">
+                <div class="container-fluid"></div>
+            </div> 
+        </section>
 
    
       <!-- Start Bio -->
@@ -134,7 +141,9 @@
    <!-- End Top 3 Travel Destination -->
 
       <!-- Start Gallery -->
-      <div id="gallery" style="background-image: url('images/plane.png'); background-size:  cover; height: 100vh;">
+      <section id="bg-gallery">
+                <div class="container">
+      <!-- <div id="gallery" style="background-image: url('images/plane.png'); background-size:  cover; height: 100vh;"> -->
       <h2 class="font-weight-bold text-center pt-5">Gallery</h2>
       <div class="row d-none d-md-block mt-md-5 pb-5">
          <div class="offset-xl-3 col-xl-6">
@@ -273,6 +282,10 @@
          </div>
       </div>
       </div>
+   </div>
+</div>
+
+      </section>
       <!-- End Gallery -->
    
 
